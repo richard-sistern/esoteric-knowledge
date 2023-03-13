@@ -1,4 +1,4 @@
-# esoteric-knowledge
+# :mount_fuji: esoteric-knowledge 
 
 ## Contents
 
