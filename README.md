@@ -2,5 +2,6 @@
 
 ## Contents
 
+- [ADO](ado/README.md)
 - [Azure](azure/README.md)
 - [Terraform](terraform/README.md)
