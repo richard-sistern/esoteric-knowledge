@@ -6,9 +6,9 @@
 
 The [Azure Automange](https://learn.microsoft.com/en-AU/azure/automanage/overview-about) automatically onboards VMs to services condidered [best practise](https://learn.microsoft.com/en-AU/azure/automanage/automanage-windows-server) for given the environment
 
-### IMDS
+### Azure Instance Metadata Service (IMDS)
 
-Endpoint availible inside guest which can be used to communicate with ARM to get information/metadata.  For example:
+The [Instance Metadata Service](https://learn.microsoft.com/en-us/azure/virtual-machines/instance-metadata-service?tabs=windows) provides an endpoint availible inside guests which can be used to communicate with ARM to get information/metadata.  For example:
 
 - VM creation timestamp
 - Resource tags
