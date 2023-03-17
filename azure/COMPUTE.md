@@ -2,6 +2,10 @@
 
 ## Virtual Machine
 
+### Automanage
+
+The [Azure Automange](https://learn.microsoft.com/en-AU/azure/automanage/overview-about) automatically onboards VMs to services condidered [best practise](https://learn.microsoft.com/en-AU/azure/automanage/automanage-windows-server) for given the environment
+
 ### IMDS
 
 Endpoint availible inside guest which can be used to communicate with ARM to get information/metadata.  For example:
