@@ -1,5 +1,9 @@
 # Terraform
 
+## Learn
+
+- [Advanced Terraform techniques](https://www.hashicorp.com/resources/advanced-terraform-techniques); covers advanced topics related to Terraform coding and code management that will help you create, utilize, maintain, manage, and optimize your Terraform codebase
+
 ## Tools
 
 - [Microsoft Azure Export for Terraform](https://github.com/Azure/aztfexport)
