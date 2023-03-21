@@ -4,5 +4,7 @@
 
 - [ADO](ado/README.md)
 - [Azure](azure/README.md)
+- [GIT](git/README.md)
 - [NGINX](nginx/README.md)
+- [Python](python/README.md)
 - [Terraform](terraform/README.md)
