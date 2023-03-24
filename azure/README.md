@@ -4,6 +4,14 @@
 
 - [Azure Orphan Resources Workbook](https://github.com/dolevshor/azure-orphan-resources)
 
+## Infrastructure as Code
+
+- [Bicep](bicep/README.md)
+
+## Logging
+
+- [Kusto](kusto/README.md)
+
 ## Monitoring
 
 - [The RED Method: A New Approach to Monitoring Microservices](https://thenewstack.io/monitoring-microservices-red-method/)
