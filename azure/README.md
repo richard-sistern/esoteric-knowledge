@@ -7,6 +7,7 @@
 ## Infrastructure as Code
 
 - [Bicep](bicep/README.md)
+- [PSRule for Azure](https://azure.github.io/PSRule.Rules.Azure/)
 
 ## Logging
 
