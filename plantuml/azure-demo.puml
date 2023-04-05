@@ -1,0 +1,23 @@
+@startuml
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/Networking/AzurePublicIPAddress.puml
+!includeurl AzurePuml/Networking/AzureApplicationGateway.puml
+!includeurl AzurePuml/Web/AzureAPIManagement.puml
+!includeurl AzurePuml/Web/AzureWebApp.puml
+!includeurl AzurePuml/Containers/AzureContainerInstance.puml
+
+AzurePublicIPAddress(pipAlias, "name-pip", "Subscription", "SKU") #LightGoldenRodYellow
+AzureApplicationGateway(appgwAlias, "name-appgw", "Subscription", "SKU") #LightGoldenRodYellow
+AzureAPIManagement(apimAlias, "name-apim", "Subscription", "SKU") 
+AzureContainerInstance(ciAlias, "name-ci", "Subscription", "SKU") 
+AzureWebApp(waAlias, "name-web", "Subscription", "SKU") 
+
+pipAlias -> appgwAlias 
+appgwAlias --> apimAlias : Listener
+appgwAlias --> ciAlias : Listener
+appgwAlias --> waAlias : Listener
+
+' https://github.com/plantuml-stdlib/Azure-PlantUML/blob/master/AzureSymbols.md#azure-symbols
+' https://github.com/plantuml-stdlib/Azure-PlantUML
+@enduml
