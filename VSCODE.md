@@ -9,6 +9,10 @@
 | Multi cursor    | Alt + Left Click     |
 | Open file       | Ctrl (⌘) + P         |
 
+## Command palette
+
+- Format code
+
 ## Useful extensions
 
 - [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
