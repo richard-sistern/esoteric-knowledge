@@ -30,6 +30,6 @@
 
 ## Emmet
 
-Emmet documentation](https://docs.emmet.io)
+[Emmet documentation](https://docs.emmet.io)
 
 - ! - Boilerplate HTML
