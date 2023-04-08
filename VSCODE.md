@@ -27,3 +27,9 @@
 | Setting                         |   Value |
 | ------------------------------- | ------- |
 | Emmet: Trigger Expansion On Tab | True    |
+
+## Emmet
+
+Emmet documentation](https://docs.emmet.io)
+
+- ! - Boilerplate HTML
