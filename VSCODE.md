@@ -8,6 +8,7 @@
 | Intellisense    | Ctrl (⌘) + Space     |
 | Multi cursor    | Alt + Left Click     |
 | Open file       | Ctrl (⌘) + P         |
+| Refactor        | Ctrl + Shift + R     |
 | Rename symbol   | F2                   |
 
 ## Command palette
