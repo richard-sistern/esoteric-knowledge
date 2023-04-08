@@ -21,3 +21,9 @@
 - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+
+## Settings
+
+| Setting                         |   Value |
+| ------------------------------- | ------- |
+| Emmet: Trigger Expansion On Tab | True    |
