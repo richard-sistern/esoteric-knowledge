@@ -1,5 +1,10 @@
 # Azure Kubernetes Services (AKS)
 
+## Tools
+
+- [Lens](https://k8slens.dev/)
+- [k9s CLI](https://k9scli.io/)
+
 ## Videos
 
 - [Azure Kubernetes Services (AKS) Overview](https://www.youtube.com/watch?v=c4nTKMU6fBU)
