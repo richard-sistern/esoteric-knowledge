@@ -11,3 +11,5 @@
 ## Tools
 
 - [Microsoft Azure Export for Terraform](https://github.com/Azure/aztfexport)
+- [TFLint](https://github.com/terraform-linters/tflint)
+- [terraform-docs](https://github.com/terraform-docs/terraform-docs)
