@@ -9,5 +9,6 @@
 - [Docker](docker/README.md)
 - [GIT](git/README.md)
 - [NGINX](nginx/README.md)
+- [PlantUML](plantuml/README.md)
 - [Python](python/README.md)
 - [Terraform](terraform/README.md)
