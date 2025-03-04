@@ -31,6 +31,7 @@
       "meta",
       "nav",
       "noscript",
+      "ol",
       "p",
       "path",
       "script",
@@ -233,9 +234,9 @@
     "ids": [
       "TableOfContents",
       "buttonColorMode",
-      "commands",
       "doks-docs-nav",
       "further-reading",
+      "how-a-technology-radar-works",
       "keyboard-shortcuts",
       "offcanvasNavMain",
       "offcanvasNavMainLabel",
@@ -249,11 +250,12 @@
       "searchResults",
       "searchToggleDesktop",
       "searchToggleMobile",
-      "shortcuts",
       "socialMenu",
       "toc",
       "useful-extensions",
-      "visual"
+      "visual",
+      "what-is-a-technology-radar",
+      "why-use-a-technology-radar"
     ]
   }
 }
