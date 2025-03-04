@@ -1,6 +1,20 @@
-# Visual Studio Code
+---
+title: "Visual Studio Code"
+description: "Useful bits and pieces for Visual Studio Code."
+summary: ""
+date: 2023-09-07T16:13:18+02:00
+lastmod: 2023-09-07T16:13:18+02:00
+draft: false
+weight: 910
+toc: true
+seo:
+  title: "" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  robots: "" # custom robot tags (optional)
+---
 
-## Shortcuts
+## Keyboard shortcuts
 
 | Description     | Shortcut             |
 |-----------------|----------------------|
@@ -10,10 +24,6 @@
 | Open file       | Ctrl (⌘) + P         |
 | Refactor        | Ctrl + Shift + R     |
 | Rename symbol   | F2                   |
-
-## Command palette
-
-- Format code
 
 ## Useful extensions
 
@@ -35,16 +45,3 @@
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-
-
-## Settings
-
-| Setting                         |   Value |
-| ------------------------------- | ------- |
-| Emmet: Trigger Expansion On Tab | True    |
-
-## Emmet
-
-[Emmet documentation](https://docs.emmet.io)
-
-- ! - Boilerplate HTML

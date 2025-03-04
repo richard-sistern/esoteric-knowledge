@@ -41,9 +41,15 @@
       "style",
       "summary",
       "svg",
+      "table",
+      "tbody",
+      "td",
       "template",
+      "th",
+      "thead",
       "time",
       "title",
+      "tr",
       "ul"
     ],
     "classes": [
@@ -227,12 +233,15 @@
     "ids": [
       "TableOfContents",
       "buttonColorMode",
+      "commands",
       "doks-docs-nav",
       "further-reading",
+      "keyboard-shortcuts",
       "offcanvasNavMain",
       "offcanvasNavMainLabel",
       "offcanvasNavSection",
       "offcanvasNavSectionLabel",
+      "productivity",
       "query",
       "search-form",
       "searchModal",
@@ -240,8 +249,11 @@
       "searchResults",
       "searchToggleDesktop",
       "searchToggleMobile",
+      "shortcuts",
       "socialMenu",
-      "toc"
+      "toc",
+      "useful-extensions",
+      "visual"
     ]
   }
 }
