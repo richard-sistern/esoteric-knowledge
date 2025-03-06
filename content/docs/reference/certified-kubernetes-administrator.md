@@ -20,4 +20,3 @@ seo:
 - A [Certified Kubernetes Administrator (CKA) with Practice Tests](https://www.udemy.com/share/101WmE3@ggPePAgbaNO6slJ7gaU6UmU3TfoakpDVG_7Se0B6yzZNDMJrvb8pnKi_HJtlJYFS/) course on Udemy
 - [Exam Curriculum](https://github.com/cncf/curriculum)
 - [Candidate Handbook](https://docs.linuxfoundation.org/tc-docs/certification/lf-handbook2)
-- []
