@@ -234,6 +234,7 @@
     "ids": [
       "TableOfContents",
       "buttonColorMode",
+      "certified-kubernetes-administrator-cka",
       "doks-docs-nav",
       "further-reading",
       "how-a-technology-radar-works",
@@ -254,6 +255,7 @@
       "toc",
       "useful-extensions",
       "visual",
+      "watch",
       "what-is-a-technology-radar",
       "why-use-a-technology-radar"
     ]
