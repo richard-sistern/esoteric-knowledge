@@ -21,3 +21,4 @@ seo:
 ## Watch
 
 - [Bus Factor and other fun ways to kill a company](https://www.youtube.com/watch?v=WrcPnmRJLec&)
+- [Richard Cook, "How Complex Systems Fail"](https://www.youtube.com/watch?v=2S0k12uZR14)
