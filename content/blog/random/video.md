@@ -24,3 +24,4 @@ seo:
 - [Ned in the Cloud](https://www.youtube.com/@NedintheCloud/videos) - Random cloud stuff and Terraform
 - [John Savill's Technical Training](https://www.youtube.com/@NTFAQGuy/videos) - Focused on Azure, AI, DevOps, PowerShell and other Microsoft technologies
 - [NDC Conference Videos](https://www.youtube.com/@NDC/videos) - Speakers on a huge range of topics
+- [Fireship](https://www.youtube.com/@Fireship/videos) - Fast paced tech news, with a hint of snark
