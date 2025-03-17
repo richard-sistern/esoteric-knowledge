@@ -18,6 +18,7 @@ seo:
 ```shell
 winget install --id Microsoft.PowerToys
 winget install --id Microsoft.WindowsTerminal
+winget install k9s
 ```
 
 ## Migration tooling
