@@ -16,9 +16,13 @@ seo:
 
 ## Install
 ```shell
+# winget
 winget install --id Microsoft.PowerToys
 winget install --id Microsoft.WindowsTerminal
 winget install k9s
+
+# choco
+choco install -y bind-toolsonly
 ```
 
 ## Migration tooling
