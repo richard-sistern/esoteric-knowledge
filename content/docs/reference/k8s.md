@@ -24,7 +24,11 @@ kubectl delete pod <name>
 kubectl get pods -o wide
 ```
 
-Create a pod with yaml
+Create a redis pod with yaml
+```shell
+kubectl run redis --image redis --dry-run -o yaml
+```
+
 ```yml
 apiVersion: v1
 kind: Pod
