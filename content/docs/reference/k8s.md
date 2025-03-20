@@ -16,4 +16,6 @@ seo:
 
 ## Kubectl
 
+### Pods
 kubectl run nginx --image nginx
+kubectl describe pod <name>
