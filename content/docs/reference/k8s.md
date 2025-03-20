@@ -22,3 +22,24 @@ kubectl run nginx --image nginx
 kubectl describe pod <name>
 kubectl delete pod <name>
 ```
+
+Create a pod with yaml
+```yml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: redis
+  labels:
+    app: redis
+spec:
+  containers:
+    - name: redis
+      image: redis
+```
+Apply with
+```shell
+kubectl create -f redis-pod.yml
+
+# To update existing
+kubectl apply -f redis-pod.yml
+```
