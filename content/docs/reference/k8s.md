@@ -17,6 +17,8 @@ seo:
 ## Kubectl
 
 ### Pods
+```shell
 kubectl run nginx --image nginx
 kubectl describe pod <name>
 kubectl delete pod <name>
+```
