@@ -21,6 +21,7 @@ seo:
 kubectl run nginx --image nginx
 kubectl describe pod <name>
 kubectl delete pod <name>
+kubectl get pods -o wide
 ```
 
 Create a pod with yaml
