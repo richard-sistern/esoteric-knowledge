@@ -26,7 +26,7 @@ kubectl get pods -o wide
 
 Create a redis pod with yaml
 ```shell
-kubectl run redis --image redis --dry-run -o yaml
+kubectl run redis --image redis --dry-run=client -o yaml
 ```
 
 ```yml
