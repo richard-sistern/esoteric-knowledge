@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes Reference"
-description: "Kubernetes useful bits and pieces."
+description: "Notes from the CKA course."
 summary: ""
 date: 2023-09-07T16:13:18+02:00
 lastmod: 2023-09-07T16:13:18+02:00
@@ -19,3 +19,4 @@ seo:
 ### Pods
 kubectl run nginx --image nginx
 kubectl describe pod <name>
+kubectl delete pod <name>
