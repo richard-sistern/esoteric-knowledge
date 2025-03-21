@@ -10,11 +10,11 @@
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example Guide</title>
-      <link>http://localhost:1313/docs/guides/example-guide/</link>
+      <title>Setup a new computer</title>
+      <link>http://localhost:1313/docs/guides/setup-a-new-computer/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/guides/example-guide/</guid>
-      <description>&lt;p&gt;Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/docs/guides/setup-a-new-computer/</guid>
+      <description>&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;expressive-code&#34;&gt;&#xD;&#xA;  &lt;figure class=&#34;frame is-terminal not-content&#34;&gt;&#xD;&#xA;  &lt;figcaption class=&#34;header&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;title&#34;&gt;&lt;/span&gt;&#xD;&#xA;  &lt;/figcaption&gt;&#xD;&#xA;  &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# winget&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;winget install --id Microsoft.PowerToys&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;winget install --id Microsoft.WindowsTerminal&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;winget install k9s&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# choco&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;choco install -y bind-toolsonly&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;migration-tooling&#34;&gt;Migration tooling&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Script to &lt;a href=&#34;https://gist.github.com/Cyclodex/332802d133b67a379fcd4e9a5841a69a&#34;&gt;collect all git repositories and create a clone script&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

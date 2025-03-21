@@ -14,13 +14,13 @@
 
 <link rel="stylesheet" href="/main.dc2f5458ab98613899cfadbb551e078821f7645691e4dfc57bb48d7697fe7be6885b7aea93d9ab15c53a25e38128c09220a1b4dcab934e04d1a7b374499b9872.css" integrity="sha512-3C9UWKuYYTiZz627VR4HiCH3ZFaR5N/Fe7SNdpf&#43;e&#43;aIW3rqk9mrFcU6JeOBKMCSIKG03KuTTgTRp7N0SZuYcg==" crossorigin="anonymous">
 
-<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/docs/">
+<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/blog/failure/">
 
-  <link rel="canonical" href="http://localhost:1313/docs/">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/docs/index.xml" title="Docs | My Docs"><link rel="sitemap" type="application/xml" href="http://localhost:1313/docs/sitemap.xml" title="Docs | My Docs">
+  <link rel="canonical" href="http://localhost:1313/blog/failure/">
 
-<title>Docs  |  My Docs</title>
-<meta name="description" content="Congrats on setting up a new Doks project!">
+
+<title>Failure  |  My Docs</title>
+<meta name="description" content="A dive into failure.">
 
     
     <link rel="icon" href="/favicon.ico" sizes="32x32">
@@ -47,20 +47,24 @@
       >
 <link rel="manifest" href="/manifest.webmanifest">
 
-<meta property="og:url" content="http://localhost:1313/docs/">
+<meta property="og:url" content="http://localhost:1313/blog/failure/">
   <meta property="og:site_name" content="My Docs">
-  <meta property="og:title" content="Docs">
-  <meta property="og:description" content="Congrats on setting up a new Doks project!">
+  <meta property="og:title" content="Failure">
+  <meta property="og:description" content="A dive into failure.">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2023-09-07T16:27:22+02:00">
+    <meta property="article:modified_time" content="2023-09-07T16:27:22+02:00">
     <meta property="og:image" content="http://localhost:1313/cover.png">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/cover.png">
-  <meta name="twitter:title" content="Docs">
-  <meta name="twitter:description" content="Congrats on setting up a new Doks project!">
+  <meta name="twitter:title" content="Failure">
+  <meta name="twitter:description" content="A dive into failure.">
       <meta name="twitter:site" content="@getdoks">
 
+    
     <script type="application/ld+json">
   {
    "@context": "https://schema.org",
@@ -74,12 +78,51 @@
      },
      {
        "@type": "ListItem",
-       "name": "Docs",
+       "item": "http://localhost:1313/blog/",
+       "name": "Blog",
        "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "name": "Failure",
+       "position": 3
      }
    ]
  }
 </script>
+  
+	
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Failure",
+      "description": "A dive into failure.",
+      "isPartOf": {
+        "@id": "http://localhost:1313/blog/failure/"
+      },
+      "mainEntityOfPage": {
+        "@id": "http://localhost:1313/blog/failure/"
+      },
+      "datePublished": "2023-09-07T16:27:22+02:00",
+      "dateModified": "2023-09-07T16:27:22+02:00",
+      "author": {
+        "@type": "Organization",
+        "name": "Thulite",
+        "url": "http://localhost:1313/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thulite"
+      }
+    }
+  ]
+}
+</script>
+
 
 
 
@@ -88,7 +131,7 @@
 </head>
 
   
-  <body class="list section docs" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
+  <body class="single section blog" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
     <div class="sticky-top">
 <header class="navbar navbar-expand-lg">
   <div class="container-lg">
@@ -105,70 +148,6 @@
       </svg>
     </button>
     
-    <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection" aria-label="Open section navigation menu">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
-        <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
-        <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
-      </svg>
-    </button>
-    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection" aria-labelledby="offcanvasNavSectionLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavSectionLabel">Docs</h5>
-        <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M18 6l-12 12"></path>
-            <path d="M6 6l12 12"></path>
-          </svg>
-        </button>
-      </div>
-      <div class="offcanvas-body">
-        <aside class="doks-sidebar mt-n3">
-          <nav id="doks-docs-nav" aria-label="Tertiary navigation">
-            
-  
-    
-<nav class="section-nav docs-links">
-  <ul class="list-unstyled">
-
-  <li>
-    <details open>
-      <summary>Guides</summary>
-      <ul class="list-unstyled list-nested">
-
-  <li>
-      <a href="/docs/guides/setup-a-new-computer/">Setup a new computer</a>
-  </li>
-      </ul>
-    </details>
-  </li>
-
-  <li>
-    <details open>
-      <summary>Reference</summary>
-      <ul class="list-unstyled list-nested">
-
-  <li>
-      <a href="/docs/reference/certified-kubernetes-administrator-cka/">Certified Kubernetes Administrator (CKA)</a>
-  </li>
-
-  <li>
-      <a href="/docs/reference/visual-studio-code/">Visual Studio Code</a>
-  </li>
-      </ul>
-    </details>
-  </li>
-  </ul>
-</nav>
-
-  
-
-          </nav>
-        </aside>
-      </div>
-    </div>
     
     <button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain" aria-label="Open main navigation menu">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -193,10 +172,10 @@
       
       <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
         <ul class="navbar-nav flex-grow-1"><li class="nav-item">
-                <a class="nav-link active" href="http://localhost:1313/docs/guides/example-guide/" aria-current="true">Docs</a>
+                <a class="nav-link" href="http://localhost:1313/docs/guides/example-guide/">Docs</a>
               </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://localhost:1313/blog/">Blog</a>
+                <a class="nav-link active" href="http://localhost:1313/blog/" aria-current="true">Blog</a>
               </li>
             </ul>
 
@@ -289,56 +268,38 @@
       <div class="content">
       
         
+<article>
 <div class="row justify-content-center">
-  <div class="col-md-12 col-lg-10 col-xl-8">
-    <article>
-      <h1 class="text-center">Docs</h1>
-      
-			<div class="card-list">
-				
-				
-					
-						<div class="card my-3">
-							<div class="card-body">
-								<a class="stretched-link" href="/docs/reference/certified-kubernetes-administrator-cka/">Certified Kubernetes Administrator (CKA) &rarr;</a>
-							</div>
-						</div>
-					
-				
-					
-						<div class="card my-3">
-							<div class="card-body">
-								<a class="stretched-link" href="/docs/resources/">Resources &rarr;</a>
-							</div>
-						</div>
-					
-				
-					
-						<div class="card my-3">
-							<div class="card-body">
-								<a class="stretched-link" href="/docs/guides/setup-a-new-computer/">Setup a New Computer &rarr;</a>
-							</div>
-						</div>
-					
-				
-					
-						<div class="card my-3">
-							<div class="card-body">
-								<a class="stretched-link" href="/docs/reference/visual-studio-code/">Visual Studio Code &rarr;</a>
-							</div>
-						</div>
-					
-				
-			</div>
-    </article>
+  <div class="col-md-12 col-lg-10">
+    <div class="blog-header">
+      <h1>Failure</h1>
+      <p>
+  <small>September 7, 2023<span class="stretched-link position-relative reading-time text-nowrap" title="Estimated reading time"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+        <path d="M12 7v5l3 3"></path>
+      </svg>1&nbsp;minute</span></small>
+</p>
+
+    </div>
   </div>
+  <div class="col-md-12 col-lg-9">
+    <p class="lead">A dive into various ways systems, processes and business fails.</p><h2 id="watch">Watch</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=WrcPnmRJLec&amp;">Bus Factor and other fun ways to kill a company</a></li>
+<li><a href="https://www.youtube.com/watch?v=2S0k12uZR14">Richard Cook, &ldquo;How Complex Systems Fail&rdquo;</a></li>
+</ul>
+
+    </div>
 </div>
+</article>
 
       
       </div>
     </div>
     
     
+
     <footer class="footer text-muted">
   <div class="container-lg">
     <div class="row">

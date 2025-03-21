@@ -2,7 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/example-post/</loc>
+    <loc>http://localhost:1313/blog/failure/</loc>
+    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blog/technology-radar/</loc>
+    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blog/video/</loc>
     <lastmod>2023-09-07T16:27:22+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -17,7 +27,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/guides/example-guide/</loc>
+    <loc>http://localhost:1313/docs/guides/setup-a-new-computer/</loc>
     <lastmod>2023-09-07T16:04:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -27,7 +37,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/docs/reference/example-reference/</loc>
+    <loc>http://localhost:1313/docs/reference/certified-kubernetes-administrator-cka/</loc>
+    <lastmod>2023-09-07T16:13:18+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/docs/reference/visual-studio-code/</loc>
     <lastmod>2023-09-07T16:13:18+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

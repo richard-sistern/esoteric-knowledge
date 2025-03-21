@@ -10,11 +10,25 @@
     <lastBuildDate>Thu, 07 Sep 2023 16:27:22 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example Post</title>
-      <link>http://localhost:1313/blog/example-post/</link>
+      <title>Failure</title>
+      <link>http://localhost:1313/blog/failure/</link>
       <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/example-post/</guid>
-      <description>You can use blog posts for announcing product updates and features.</description>
+      <guid>http://localhost:1313/blog/failure/</guid>
+      <description>A dive into various ways systems, processes and business fails.</description>
+    </item>
+    <item>
+      <title>Technology Radar</title>
+      <link>http://localhost:1313/blog/technology-radar/</link>
+      <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
+      <guid>http://localhost:1313/blog/technology-radar/</guid>
+      <description>The Technology Radar is a tool for active technology management in a business.</description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>http://localhost:1313/blog/video/</link>
+      <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
+      <guid>http://localhost:1313/blog/video/</guid>
+      <description>A curated selection of channels and videos.</description>
     </item>
   </channel>
 </rss>
