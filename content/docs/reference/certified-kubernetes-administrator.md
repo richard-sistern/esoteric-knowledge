@@ -20,3 +20,38 @@ seo:
 - A [Certified Kubernetes Administrator (CKA) with Practice Tests](https://www.udemy.com/share/101WmE3@ggPePAgbaNO6slJ7gaU6UmU3TfoakpDVG_7Se0B6yzZNDMJrvb8pnKi_HJtlJYFS/) course on Udemy
 - [Exam Curriculum](https://github.com/cncf/curriculum)
 - [Candidate Handbook](https://docs.linuxfoundation.org/tc-docs/certification/lf-handbook2)
+
+## Kubectl
+
+### Pods
+```shell
+kubectl run nginx --image nginx
+kubectl describe pod <name>
+kubectl delete pod <name>
+kubectl get pods -o wide
+```
+
+Create a redis pod with yaml
+```shell
+kubectl run redis --image redis --dry-run=client -o yaml
+```
+
+```yml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: redis
+  labels:
+    app: redis
+spec:
+  containers:
+    - name: redis
+      image: redis
+```
+Apply with
+```shell
+kubectl create -f redis-pod.yml
+
+# To update existing
+kubectl apply -f redis-pod.yml
+```
