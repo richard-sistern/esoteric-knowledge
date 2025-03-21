@@ -21,7 +21,7 @@ seo:
 - [Exam Curriculum](https://github.com/cncf/curriculum)
 - [Candidate Handbook](https://docs.linuxfoundation.org/tc-docs/certification/lf-handbook2)
 
-## Kubectl
+## Notes
 
 ### Pods
 ```shell
