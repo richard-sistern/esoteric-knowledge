@@ -67,9 +67,8 @@ kubectl scale rs <name> --replicas=5
 
 ### Deployments
 ```shell
+kubectl create deployment --help
 kubectl create deployment --image=nginx nginx
-
 kubectl create deployment --image=nginx nginx --dry-run=client -o yaml
-
 kubectl create -f nginx-deployment.yaml
 ```
