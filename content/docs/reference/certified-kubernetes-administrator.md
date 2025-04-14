@@ -55,3 +55,12 @@ kubectl create -f redis-pod.yml
 # To update existing
 kubectl apply -f redis-pod.yml
 ```
+
+### Replica Sets
+```shell
+kubectl describe replicaset <name>
+kubectl create -f file.yaml
+kubectl explain replicaset
+kubectl edit rs <name>
+kubectl scale rs <name> --replicas=5
+```
