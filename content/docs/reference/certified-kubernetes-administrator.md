@@ -31,7 +31,7 @@ kubectl delete pod <name>
 kubectl get pods -o wide
 ```
 
-Create a redis pod with yaml
+Create a redis pod manifest and export to yaml
 ```shell
 kubectl run redis --image redis --dry-run=client -o yaml
 ```
